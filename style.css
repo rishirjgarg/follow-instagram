@@ -1,0 +1,50 @@
+*{
+    /* font-size: 30px; */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#image{
+    margin-top: 10px;
+    /* margin-left: 200px; */
+    object-fit: cover;
+    object-position: center;
+    border-radius: 3%;
+}
+html,body{
+    height: 100vw;
+    width: 100vh;
+}
+#btncont{
+    height: 55vh;
+    width: 55vw;
+    border-radius: 10%;
+    text-align:center;
+    background-color: rgb(254, 238, 219);
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+ #bb{
+    height: 500px;
+    width: 600px;
+ }
+ #id1{
+    font-size: 20px;
+    font-weight: 10;
+ }
+ #add{
+    background-color: rgb(172, 172, 251);
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+ }
+ #add:hover{
+    background-color: rgb(146, 146, 240);
+    color: rgb(48, 48, 48);
+ }
